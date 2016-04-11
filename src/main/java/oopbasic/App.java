@@ -10,11 +10,11 @@ public class App {
         box1.widht = 10;
         box1.langht = 10;
 
-        int voll = box1.height * box1.widht * box1.langht;
-
         Box box2 = new Box();
-        box2.height = 10;
-        box2.widht = 10;
-        box2.langht = 10;
+        box2.height = 12;
+        box2.widht = 12;
+        box2.langht = 12;
+        System.out.println(box1.getVolume());
+        System.out.println(box2.getVolume());
     }
 }
