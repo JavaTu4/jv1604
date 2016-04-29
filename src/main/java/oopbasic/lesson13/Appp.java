@@ -9,5 +9,12 @@ public class Appp {
 //        OutherClass.InnerClass inner = new OutherClass.InnerClass();
         OutherClass.InnerClass inner = outher.new InnerClass();
         inner.doSomething(0);
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("run");
+            }
+        }).start();
     }
 }
