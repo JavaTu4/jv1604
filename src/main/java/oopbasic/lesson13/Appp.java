@@ -1,5 +1,7 @@
 package oopbasic.lesson13;
 
+import oopbasic.inter.Testenum;
+
 /**
  * Created by JV on 4/29/2016
  */
@@ -16,5 +18,8 @@ public class Appp {
                 System.out.println("run");
             }
         }).start();
+        System.out.println(Testenum.Three.getA());
+        System.out.println(Testenum.Three);
     }
+
 }
